@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta .charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 50%;
+            margin: 0 auto;
+            border: 15px solid red;
+            background-color: black;
+            padding: 10px;
+        }
+        .date,.time{
+            display: flex;
+            
+        }
+        .box{
+            width: 30%;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="date">
+        <div  class="box">Date
+            <p id="dd"></p>
+        </div>
+        <div  class="box">Month
+            <p id="mm"></p>
+        </div>
+        <div  class="box">Year
+            <p id="yy"></p>
+        </div>
+       </div> 
+       <div class="time">
+        <div class="box">Hour
+            <p id="hh"></p>
+        </div>
+        <div class="box">Mintes
+            <p id="min"></p>
+        </div>
+        <div class="box">Seconds
+            <p id="sec"></p>
+        </div>
+       </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
